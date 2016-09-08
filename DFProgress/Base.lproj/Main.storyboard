@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o31-5f-shp" customClass="DFProgress">
+                                <rect key="frame" x="20" y="30" width="205" height="10"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="eU5-mC-0Qu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lHA-Is-E7z" customClass="DFProgress">
+                                <rect key="frame" x="20" y="60" width="255" height="15"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="4Tg-IV-8pL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GdO-Lu-2no" customClass="DFProgress">
+                                <rect key="frame" x="16" y="95" width="263" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="HMh-Sa-weM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71Y-vq-tnj" customClass="DFProgress">
+                                <rect key="frame" x="16" y="135" width="168" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="qAO-en-fEx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59H-VR-1Dq" customClass="DFProgress">
+                                <rect key="frame" x="16" y="175" width="93" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="3nk-w0-gxq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vdo-7U-eyu" customClass="DFProgress">
+                                <rect key="frame" x="16" y="215" width="143" height="25"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="wIJ-uD-mIP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibG-8A-IRu" customClass="DFProgress">
+                                <rect key="frame" x="16" y="260" width="163" height="25"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Ffd-ci-Hng"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iPH-EH-vZm" customClass="DFProgress">
+                                <rect key="frame" x="16" y="305" width="243" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="vvf-ye-zsF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPA-hZ-tN2" customClass="DFProgress">
+                                <rect key="frame" x="16" y="355" width="269" height="25"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="dkp-pO-CDg"/>
+                                    <constraint firstAttribute="height" constant="25" id="kyC-7R-4Ra"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="dkp-pO-CDg"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ykm-lG-Iv0" customClass="DFProgress">
+                                <rect key="frame" x="16" y="400" width="299" height="25"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="4yr-H6-aba"/>
+                                    <constraint firstAttribute="height" constant="25" id="5pN-K4-0WZ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="4yr-H6-aba"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVk-JS-pB9" customClass="DFProgress">
+                                <rect key="frame" x="16" y="445" width="289" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="WLQ-YE-3hK"/>
+                                    <constraint firstAttribute="height" constant="20" id="oLs-Hc-qDi"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WLQ-YE-3hK"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YaM-32-uxQ" customClass="DFProgress">
+                                <rect key="frame" x="16" y="485" width="279" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="HdV-gW-DEG"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="Y1H-pk-VhL"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Y1H-pk-VhL"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lHA-Is-E7z" secondAttribute="trailing" constant="100" id="3TM-az-osu"/>
+                            <constraint firstAttribute="trailing" secondItem="o31-5f-shp" secondAttribute="trailing" constant="150" id="4BN-uw-bys"/>
+                            <constraint firstItem="o31-5f-shp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="5uf-AN-uyY"/>
+                            <constraint firstItem="Vdo-7U-eyu" firstAttribute="top" secondItem="59H-VR-1Dq" secondAttribute="bottom" constant="20" id="8I3-23-Gl7"/>
+                            <constraint firstItem="zPA-hZ-tN2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="94X-DM-HUQ"/>
+                            <constraint firstItem="lHA-Is-E7z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="B1i-Ef-Myf"/>
+                            <constraint firstItem="59H-VR-1Dq" firstAttribute="top" secondItem="71Y-vq-tnj" secondAttribute="bottom" constant="20" id="CVl-A3-wFC"/>
+                            <constraint firstItem="71Y-vq-tnj" firstAttribute="top" secondItem="GdO-Lu-2no" secondAttribute="bottom" constant="20" id="Cra-hX-9gE"/>
+                            <constraint firstItem="71Y-vq-tnj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="D3E-Cq-4gm"/>
+                            <constraint firstAttribute="trailing" secondItem="zPA-hZ-tN2" secondAttribute="trailing" constant="90" id="Eie-9I-FbO"/>
+                            <constraint firstItem="71Y-vq-tnj" firstAttribute="top" secondItem="GdO-Lu-2no" secondAttribute="bottom" constant="36" id="G5c-Id-UvD"/>
+                            <constraint firstItem="ibG-8A-IRu" firstAttribute="top" secondItem="Vdo-7U-eyu" secondAttribute="bottom" constant="20" id="H8r-l8-ade"/>
+                            <constraint firstItem="ibG-8A-IRu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="IZv-vQ-hyG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GdO-Lu-2no" secondAttribute="trailing" constant="80" id="Jfr-6A-ewf"/>
+                            <constraint firstItem="iPH-EH-vZm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MaZ-FV-2Xv"/>
+                            <constraint firstItem="Vdo-7U-eyu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Mhz-rn-eEc"/>
+                            <constraint firstItem="YaM-32-uxQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="NSY-Fy-peC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ibG-8A-IRu" secondAttribute="trailing" constant="180" id="O4s-Df-2zt"/>
+                            <constraint firstAttribute="trailing" secondItem="ykm-lG-Iv0" secondAttribute="trailing" constant="60" id="PH5-jy-Bcz"/>
+                            <constraint firstItem="ykm-lG-Iv0" firstAttribute="top" secondItem="zPA-hZ-tN2" secondAttribute="bottom" constant="20" id="RwK-sY-eyI"/>
+                            <constraint firstItem="GdO-Lu-2no" firstAttribute="top" secondItem="lHA-Is-E7z" secondAttribute="bottom" constant="20" id="TZP-aW-9W8"/>
+                            <constraint firstItem="lHA-Is-E7z" firstAttribute="top" secondItem="o31-5f-shp" secondAttribute="bottom" constant="20" id="aGS-Xi-WyC"/>
+                            <constraint firstItem="PVk-JS-pB9" firstAttribute="top" secondItem="ykm-lG-Iv0" secondAttribute="bottom" constant="20" id="aK1-hZ-3dC"/>
+                            <constraint firstItem="o31-5f-shp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="bTf-dJ-pdi"/>
+                            <constraint firstItem="PVk-JS-pB9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="fOD-OS-PXp"/>
+                            <constraint firstItem="GdO-Lu-2no" firstAttribute="top" secondItem="lHA-Is-E7z" secondAttribute="bottom" constant="33" id="fcf-e8-ont"/>
+                            <constraint firstItem="iPH-EH-vZm" firstAttribute="top" secondItem="ibG-8A-IRu" secondAttribute="bottom" constant="20" id="geA-v8-HTd"/>
+                            <constraint firstItem="GdO-Lu-2no" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="h8q-Xt-2k7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="59H-VR-1Dq" secondAttribute="trailing" constant="250" id="hST-QS-Z22"/>
+                            <constraint firstItem="zPA-hZ-tN2" firstAttribute="top" secondItem="iPH-EH-vZm" secondAttribute="bottom" constant="20" id="hdt-mN-xht"/>
+                            <constraint firstItem="59H-VR-1Dq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="i7y-xs-V2Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="71Y-vq-tnj" secondAttribute="trailing" constant="175" id="j8S-3q-MqX"/>
+                            <constraint firstItem="ykm-lG-Iv0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="ky6-Qe-MP6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vdo-7U-eyu" secondAttribute="trailing" constant="200" id="lqw-8m-UU9"/>
+                            <constraint firstAttribute="trailing" secondItem="YaM-32-uxQ" secondAttribute="trailing" constant="80" id="oy3-2z-gfi"/>
+                            <constraint firstItem="59H-VR-1Dq" firstAttribute="top" secondItem="71Y-vq-tnj" secondAttribute="bottom" constant="53" id="qEh-Y6-ukD"/>
+                            <constraint firstAttribute="trailing" secondItem="PVk-JS-pB9" secondAttribute="trailing" constant="70" id="r67-ud-0ke"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iPH-EH-vZm" secondAttribute="trailing" constant="100" id="sGR-XH-75e"/>
+                            <constraint firstItem="YaM-32-uxQ" firstAttribute="top" secondItem="PVk-JS-pB9" secondAttribute="bottom" constant="20" id="vUd-9m-TbJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fcf-e8-ont"/>
+                                <exclude reference="G5c-Id-UvD"/>
+                                <exclude reference="qEh-Y6-ukD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outletCollection property="progressArr" destination="71Y-vq-tnj" id="zJU-Fv-2i0"/>
+                        <outletCollection property="progressArr" destination="59H-VR-1Dq" id="Mwk-66-g6k"/>
+                        <outletCollection property="progressArr" destination="Vdo-7U-eyu" id="WDh-oB-Ko1"/>
+                        <outletCollection property="progressArr" destination="ibG-8A-IRu" id="S3O-xU-8N0"/>
+                        <outletCollection property="progressArr" destination="iPH-EH-vZm" id="L6I-l9-KgB"/>
+                        <outletCollection property="progressArr" destination="iPH-EH-vZm" id="cWU-aE-WlK"/>
+                        <outletCollection property="progressArr" destination="zPA-hZ-tN2" id="QfH-eE-E0O"/>
+                        <outletCollection property="progressArr" destination="ykm-lG-Iv0" id="Jr0-if-YwB"/>
+                        <outletCollection property="progressArr" destination="PVk-JS-pB9" id="6vH-dL-WE3"/>
+                        <outletCollection property="progressArr" destination="YaM-32-uxQ" id="6wu-mu-gM8"/>
+                        <outletCollection property="progressArr" destination="o31-5f-shp" id="KIn-Ca-a2B"/>
+                        <outletCollection property="progressArr" destination="lHA-Is-E7z" id="VQn-23-PyQ"/>
+                        <outletCollection property="progressArr" destination="GdO-Lu-2no" id="rc2-n8-EXs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-126.5" y="356.5"/>
+        </scene>
+    </scenes>
+</document>
